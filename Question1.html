@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+      }
+
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f4f4f4;
+      }
+
+      .card {
+        background: rgb(12, 194, 255);
+        border-radius: 30px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        padding: 70px;
+        width: 350px;
+        transition: transform 0.3s;
+      }
+
+      .card:hover {
+        transform: scale(1.05);
+      }
+
+      .profile-img {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        margin-bottom: 15px;
+      }
+
+      .name {
+        font-size: 1.5em;
+        font-weight: bold;
+      }
+
+      .designation {
+        color: gray;
+        margin-bottom: 10px;
+      }
+
+      .bio {
+        font-size: 0.9em;
+        margin-bottom: 15px;
+        color: #555;
+      }
+
+      .social-icons a {
+        margin: 0 10px;
+        color: #555;
+        text-decoration: none;
+        font-size: 1.2em;
+        transition: color 0.3s;
+      }
+
+      .social-icons a:hover {
+        color: #007bff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <img src="DSC_0047 (1).jpg" alt="Profile Picture" class="profile-img" />
+      <div class="name">ELIYAZ SYED</div>
+      <div class="designation">Web Developer</div>
+      <div class="bio">
+        Passionate about coding and web development. Love to create amazing
+        websites.
+      </div>
+      <div class="social-icons">
+        <a href="#" target="_blank">&#x1F426;</a>
+        <a href="#" target="_blank">&#x1F4F1;</a>
+        <a href="#" target="_blank">&#x1F517;</a>
+      </div>
+    </div>
+  </body>
+</html>
